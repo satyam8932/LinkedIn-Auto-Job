@@ -1,21 +1,21 @@
 remote: true
 
 experienceLevel:
-  internship: false
+  internship: true
   entry: true
   associate: true
-  mid-senior level: true
+  mid-senior level: false
   director: false
   executive: false
 
 jobTypes:
   full-time: true
-  contract: false
+  contract: true
   part-time: false
   temporary: true
-  internship: false
+  internship: true
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all time: false
@@ -24,29 +24,44 @@ date:
   24 hours: true
 
 positions:
-  - Software engineer
+  - Software Engineer
+  - Full Stack Developer
+  - Web Developer
+  - Python Developer
+  - Software Developer
 
 locations:
   - Germany
+  - Netherlands
+  - United States
+  - United Kingdom
+  - Australia
+  - India
+  - Belgium
+  - France
+  - Italy
+  - Denmark
+  - Singapore
+  - Austria
+  - Canada
 
-apply_once_at_company: true
+apply_once_at_company: false
 
 distance: 100
 
 company_blacklist:
   - wayfair
-  - Crossover
 
 title_blacklist:
   - word1
   - word2
 
 location_blacklist:
-  - Brazil
+  - South Africa
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 50
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
