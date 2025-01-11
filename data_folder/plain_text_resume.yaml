@@ -29,9 +29,9 @@ education_details:
 experience_details:
   - position: "Full Stack Developer"
     company: "Our Dot Art"
-    employment_period: "07/2024 - Present"
+    employment_period: "07/2024 - 01/2025"
     location: "Coatesville, PA"
-    industry: "Arts"
+    industry: "E-commerce for Creative Arts"
     key_responsibilities:
       - responsibility_1: "Increased annual revenue by $20K by resolving critical bugs and optimizing a Next.js web app for performance and scalability"
       - responsibility_2: "Led a 4-member team to successfully launch the platform, coordinating efforts across development and business teams"
@@ -86,6 +86,10 @@ projects:
   - name: "In-Memory Database: Redis"
     description: "Built a high-performance, in-memory caching system with TTL (time-to-live) and snapshot backup for real-time data handling, ensuring 99.9% uptime and real-time data availability. Engineered core data handling in C++ for fast performance and 60% more throughput, with a CPython wrapper for using functions with ease Created APIs in Typescript and Express.js for efficient data storage, retrieval, and deletion, resulting in 25% faster response times "
     link: "https://github.com/satyam8932/in-memory-storage"
+
+  - name: "GenieAI "
+    description: "A powerfull web based application leverages a range of tools to work with pdf documents providing an efficient chat and document management system."
+    link: "https://github.com/satyam8932/genieai/"
 
 achievements:
   - name: "GSSOC Open Source Contributor"
